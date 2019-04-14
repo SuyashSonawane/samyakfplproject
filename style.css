@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* padding-left: 1.5vw;
+    padding-right: 1.5vw; */
+    background: white;
+}
+.cont-1{
+    margin-top: 5vh;
+    background: url('https://images.pexels.com/photos/860963/pexels-photo-860963.jpeg?cs=srgb&dl=architecture-black-and-white-building-860963.jpg&fm=jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 5vh;
+}
+
+.heading-main{
+    text-align: center;
+    width: 13em;
+   padding-top: 11%;
+   padding-left: 55%;
+    font-size: 2.5em;
+    font-family: 'Merriweather', serif;
+}
+.contains-list{
+    padding-top: 5vh;
+    padding-left: 2vw;
+    padding-left: 58%;
+}
+.contains-list ol{
+    padding-left:0.95vw ;
+    font-size: 1.15em
+}
+.contains-list b{
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+}
+.sand{
+    padding-top: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: grid;
+    grid-template-columns: 2fr 0.8fr 0.8fr; 
+}
+.sand h3{
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+}
+.sand p{
+    /* width: 50vw; */
+}
+.sand img{
+    height: 13em;
+   padding-left: 1.2vw;
+   transition: all 0.1s ease;
+}
+.sand img:hover{
+    transform: scale(1.05);
+}
+#sand-im-2{
+    
+}
+.rock-stone{
+    padding-top: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: grid;
+    grid-template-columns: 2fr 0.8fr 0.8fr; 
+}
+.rock-stone h3{
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+}
+.rock-stone img{
+    height: 13em;
+    padding-left: 1.2vw;
+    transition: all 0.1s ease;
+}
+.rock-stone img:hover{
+    transform: scale(1.05);
+}
+.safety{
+    margin-bottom: 15vh;
+}
